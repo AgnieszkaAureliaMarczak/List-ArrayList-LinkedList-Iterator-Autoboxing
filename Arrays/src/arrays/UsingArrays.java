@@ -28,7 +28,7 @@ public class UsingArrays {
         objectArray[2] = newArray; //nested array
 
     }
-    private static int[] getRandomArray(int len){
+    public static int[] getRandomArray(int len){
         Random random = new Random();
         int[] newInt = new int[len];
         for (int i = 0; i < len; i++) {
